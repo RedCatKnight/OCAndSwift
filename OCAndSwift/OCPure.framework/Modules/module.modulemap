@@ -1,0 +1,6 @@
+framework module OCPure {
+  umbrella header "OCPure.h"
+
+  export *
+  module * { export * }
+}

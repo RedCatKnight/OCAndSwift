@@ -10,6 +10,14 @@
 		F551F3D51EA890D7005EC604 /* OCAndSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551F3CB1EA890D7005EC604 /* OCAndSwift.framework */; };
 		F551F3DA1EA890D7005EC604 /* OCAndSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F551F3D91EA890D7005EC604 /* OCAndSwiftTests.m */; };
 		F551F3DC1EA890D7005EC604 /* OCAndSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F551F3CE1EA890D7005EC604 /* OCAndSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F551F3EC1EA89149005EC604 /* OCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F551F3E51EA89149005EC604 /* OCAdd.h */; };
+		F551F3ED1EA89149005EC604 /* OCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F551F3E61EA89149005EC604 /* OCAdd.m */; };
+		F551F3EE1EA89149005EC604 /* OCPure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551F3E71EA89149005EC604 /* OCPure.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F551F3EF1EA89149005EC604 /* Sminus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F3E81EA89149005EC604 /* Sminus.swift */; };
+		F551F3F01EA89149005EC604 /* include.h in Headers */ = {isa = PBXBuildFile; fileRef = F551F3EA1EA89149005EC604 /* include.h */; };
+		F551F3F81EA8AD89005EC604 /* Middle.h in Headers */ = {isa = PBXBuildFile; fileRef = F551F3F61EA8AD89005EC604 /* Middle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F551F3F91EA8AD89005EC604 /* Middle.m in Sources */ = {isa = PBXBuildFile; fileRef = F551F3F71EA8AD89005EC604 /* Middle.m */; };
+		F551F4051EA8BF18005EC604 /* OCPure.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F551F3E71EA89149005EC604 /* OCPure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +30,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F551F4041EA8BF0A005EC604 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F551F4051EA8BF18005EC604 /* OCPure.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F551F3CB1EA890D7005EC604 /* OCAndSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCAndSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F551F3CE1EA890D7005EC604 /* OCAndSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAndSwift.h; sourceTree = "<group>"; };
@@ -29,6 +50,15 @@
 		F551F3D41EA890D7005EC604 /* OCAndSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCAndSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F551F3D91EA890D7005EC604 /* OCAndSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAndSwiftTests.m; sourceTree = "<group>"; };
 		F551F3DB1EA890D7005EC604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F551F3E51EA89149005EC604 /* OCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAdd.h; sourceTree = "<group>"; };
+		F551F3E61EA89149005EC604 /* OCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAdd.m; sourceTree = "<group>"; };
+		F551F3E71EA89149005EC604 /* OCPure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCPure.framework; sourceTree = "<group>"; };
+		F551F3E81EA89149005EC604 /* Sminus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sminus.swift; sourceTree = "<group>"; };
+		F551F3EA1EA89149005EC604 /* include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = include.h; sourceTree = "<group>"; };
+		F551F3EB1EA89149005EC604 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		F551F3F61EA8AD89005EC604 /* Middle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Middle.h; sourceTree = "<group>"; };
+		F551F3F71EA8AD89005EC604 /* Middle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Middle.m; sourceTree = "<group>"; };
+		F551F3FA1EA8AE35005EC604 /* OCAndSwift.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAndSwift.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F551F3EE1EA89149005EC604 /* OCPure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +102,16 @@
 		F551F3CD1EA890D7005EC604 /* OCAndSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F551F3E51EA89149005EC604 /* OCAdd.h */,
+				F551F3E61EA89149005EC604 /* OCAdd.m */,
+				F551F3E71EA89149005EC604 /* OCPure.framework */,
+				F551F3E81EA89149005EC604 /* Sminus.swift */,
+				F551F3E91EA89149005EC604 /* zlib */,
 				F551F3CE1EA890D7005EC604 /* OCAndSwift.h */,
 				F551F3CF1EA890D7005EC604 /* Info.plist */,
+				F551F3F61EA8AD89005EC604 /* Middle.h */,
+				F551F3F71EA8AD89005EC604 /* Middle.m */,
+				F551F3FA1EA8AE35005EC604 /* OCAndSwift.pch */,
 			);
 			path = OCAndSwift;
 			sourceTree = "<group>";
@@ -86,6 +125,15 @@
 			path = OCAndSwiftTests;
 			sourceTree = "<group>";
 		};
+		F551F3E91EA89149005EC604 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				F551F3EA1EA89149005EC604 /* include.h */,
+				F551F3EB1EA89149005EC604 /* module.modulemap */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +141,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F551F3F81EA8AD89005EC604 /* Middle.h in Headers */,
+				F551F3EC1EA89149005EC604 /* OCAdd.h in Headers */,
 				F551F3DC1EA890D7005EC604 /* OCAndSwift.h in Headers */,
+				F551F3F01EA89149005EC604 /* include.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +159,7 @@
 				F551F3C71EA890D7005EC604 /* Frameworks */,
 				F551F3C81EA890D7005EC604 /* Headers */,
 				F551F3C91EA890D7005EC604 /* Resources */,
+				F551F4041EA8BF0A005EC604 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -148,6 +200,7 @@
 					F551F3CA1EA890D7005EC604 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QD3MY4CE3U;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					F551F3D31EA890D7005EC604 = {
@@ -197,6 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F551F3F91EA8AD89005EC604 /* Middle.m in Sources */,
+				F551F3EF1EA89149005EC604 /* Sminus.swift in Sources */,
+				F551F3ED1EA89149005EC604 /* OCAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +307,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "${SRCROOT}/OCAndSwift/OCAndSwift.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -265,6 +322,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OCAndSwift/zlib";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -301,6 +359,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/OCAndSwift/OCAndSwift.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -310,6 +369,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OCAndSwift/zlib";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -320,42 +380,56 @@
 		F551F3E01EA890D7005EC604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QD3MY4CE3U;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCAndSwift",
+				);
 				INFOPLIST_FILE = OCAndSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cheny.OCAndSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F551F3E11EA890D7005EC604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QD3MY4CE3U;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCAndSwift",
+				);
 				INFOPLIST_FILE = OCAndSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cheny.OCAndSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		F551F3E31EA890D7005EC604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QD3MY4CE3U;
 				INFOPLIST_FILE = OCAndSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -367,6 +441,7 @@
 		F551F3E41EA890D7005EC604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QD3MY4CE3U;
 				INFOPLIST_FILE = OCAndSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -394,6 +469,7 @@
 				F551F3E11EA890D7005EC604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F551F3E21EA890D7005EC604 /* Build configuration list for PBXNativeTarget "OCAndSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +478,7 @@
 				F551F3E41EA890D7005EC604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
