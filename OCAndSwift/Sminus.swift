@@ -9,10 +9,16 @@
 import Foundation
 import zlib
 
-public class SMinus:NSObject {
+public class SMinus:NSObject,ResultPropertyDelegate {
     public func minus(_ p1:Int,p2:Int)->Int{
         let a = OCAdd()
         let result = a.add(p1, p2: p2)
         return result - p2
+    }
+    
+    public func printResult(_ result: Int) -> String! {
+        let str = "计算结果是:\(result)"
+        
+        return str
     }
 }
